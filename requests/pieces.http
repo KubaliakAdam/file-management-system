@@ -1,0 +1,35 @@
+@baseUrl = http://localhost:8080/api
+GET {{baseUrl}}/pieces
+
+### Create a piece
+# @name createPiece
+POST {{baseUrl}}/pieces
+Content-Type: application/json
+
+{
+  "title": "Clair de lune",
+  "composer": "Claude Debussy"
+}
+
+### Get the piece you just created
+GET {{baseUrl}}/pieces/{{createPiece.response.body.id}}
+
+### Update it
+PUT {{baseUrl}}/pieces/{{createPiece.response.body.id}}
+Content-Type: application/json
+
+{
+  "title": "Clair de lune (Suite bergamasque)",
+  "composer": "Claude Debussy"
+}
+
+### Delete it
+DELETE {{baseUrl}}/pieces/{{createPiece.response.body.id}}
+
+### Validation error (empty title)
+POST {{baseUrl}}/pieces
+Content-Type: application/json
+
+{
+  "title": ""
+}

@@ -1,1 +1,7 @@
 /Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/KoncertikApplication.java
+/Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/piece/Piece.java
+/Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/piece/PieceController.java
+/Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/piece/PieceRepository.java
+/Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/piece/PieceRequest.java
+/Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/piece/PieceResponse.java
+/Users/adam/Documents/Projects/koncertik/backend/src/main/java/com/kubaliakadam/koncertik/piece/PieceService.java
